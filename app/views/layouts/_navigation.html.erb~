@@ -1,0 +1,9 @@
+
+<ul>
+  <li>
+  	<%= link_to_unless_current('Home', :action => 'index') %>
+  	<%= link_to_unless_current('About', :action => 'index') %>
+  	<%= link_to_unless_current('Contact Us', :action => 'index') %>
+  	
+  </li>
+</ul>
