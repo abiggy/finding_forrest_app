@@ -10,8 +10,13 @@ light brown:  #4C2516
 */
 
 body {
-	background-color:#000000;
-	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	background-color:	#000000;
+	background-image: 	url('background.jpg');
+	background-repeat: 	no-repeat;
+	background-position: 	center top;
+	background-size: 	1300px auto;
+
+	font-family: 		Tahoma,Arial;	
 }
 
 img { 
@@ -19,24 +24,57 @@ img {
 }
 
 #main_container {
-	width:	900px;
+	width:	1024px;
 	margin:	auto;
 }
 
+
+#header {
+	position:	relative;
+	width:		100%;
+	height: 	200px;
+}
+
+#logo {
+	position:	absolute;
+	left: 		10px;
+	font-size: 	45px;
+	font-weight:	bold;
+    	letter-spacing: 2px;
+    	padding-top: 	10px;
+	color:		white;
+    	text-shadow: 	1px 1px 1px #000000;
+}
+
+#slogan {
+	position: 	absolute;
+	right:		30px;
+}
+
 #navigation {
-	background-color:	#3A4A1D;
+	background-color:	#FFFFFF;
+	height:			30px;
+	-khtml-opacity: 	.50; 
+	-moz-opacity: 		.50; 
+	-ms-filter: 		"alpha(opacity=50)";
+	filter: 		alpha(opacity=50);
+	filter: 		progid:DXImageTransform.Microsoft.Alpha(opacity=0.5);
+	opacity: 		.50; 
 }
 
 #content {	
-	background-color:	#FFFFFF;
+	background-color:	#000000;
+	border: 		1px solid #ffffff;
 }
 
 
 
 .nav_button {
 	color:		#FFFFFF;
+	display:		inline;	
 	font-weight:	bold;
 	font-size:	20px;
+	padding:	0px 25px;
 }
 
 .nav_button a {
@@ -56,10 +94,13 @@ img {
 .title {
 	text-transform:	uppercase;
 	font-weight:	bold;
-	color:		#3A4A1D;
+	font-size:	20px;
+	padding:	20px;
+	color:		#FF0000;
 }
 .text {
-	color:	#000000;
+	color:		#FFFFFF;
+	padding: 	10px;
 }
 
 
